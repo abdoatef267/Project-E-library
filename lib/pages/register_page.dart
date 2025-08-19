@@ -8,7 +8,6 @@ import '../widgets/custom_text_field.dart';
 import '../constants/app_strings.dart'; // استيراد AppStrings
 import '../utils/toast_helper.dart'; // استيراد ToastHelper
 import 'login_page.dart';
-import 'home_page.dart';
 import 'package:page_transition/page_transition.dart';
 
 class RegisterPage extends StatelessWidget {
@@ -55,7 +54,7 @@ class RegisterPage extends StatelessWidget {
                     ToastHelper.showToast(AppStrings.toastRegistrationSuccess); // استخدام Toast
                     Navigator.pushReplacement(
                       context,
-                      MaterialPageRoute(builder: (_) => HomePage(toggleTheme: toggleTheme)),
+                      MaterialPageRoute(builder: (_) => LoginPage(toggleTheme: toggleTheme)),
                     );
                   }
                   if (state is AuthFailure) {
