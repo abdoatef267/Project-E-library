@@ -8,6 +8,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'firebase_options.dart'; 
 import 'package:shared_preferences/shared_preferences.dart'; 
+import "pages/splash_page.dart";
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -62,7 +63,7 @@ class _MyAppState extends State<MyApp> {
         );
       },
         home: currentUser == null 
-            ? LoginPage(toggleTheme: toggleTheme) 
+            ? SplashPage(toggleTheme: toggleTheme) 
             : HomePage(toggleTheme: toggleTheme),
       ),
     );

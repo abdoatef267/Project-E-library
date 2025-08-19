@@ -6,6 +6,7 @@ import '../blocs/auth_state.dart';
 import '../constants/app_strings.dart'; // استيراد AppStrings
 import 'login_page.dart';
 import 'edit_profile_page.dart';
+import 'splash_page.dart';
 import 'package:page_transition/page_transition.dart';
 
 class SettingsPage extends StatelessWidget {
@@ -48,7 +49,7 @@ class SettingsPage extends StatelessWidget {
               Navigator.pushAndRemoveUntil(
                 context,
                 MaterialPageRoute(
-                  builder: (_) => LoginPage(toggleTheme: toggleTheme),
+                  builder: (_) => SplashPage(toggleTheme: toggleTheme),
                 ),
                 (route) => false,
               );

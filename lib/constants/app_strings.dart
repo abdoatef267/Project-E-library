@@ -8,9 +8,16 @@ class AppStrings {
   static const String btnShowPdf = 'عرض ملف PDF';
   static const String btnAddPhotos = 'إضافة صور';
   static const String btnLogin = 'تسجيل الدخول';
+  static const String deslogin = "قم بالدخول الي حسابك في اي وقت";
   static const String btnRegister = 'تسجيل حساب جديد';
   static const String btnToggleDarkMode = 'تبديل الوضع الداكن';
   static const String btnLogout = 'تسجيل الخروج';
+  static const String createAccount = 'إنشاء حساب جديد';
+  static const String haveAccount = 'لديك حساب بالفعل؟';
+  static const String confirmPassword = 'تأكيد كلمة المرور';
+  static const String splashWelcome = "مرحبا";
+  static const String donthave = "لم يكن لديك حساب ؟";
+  static const String splashDescription =     "انطلق في عالم الروايات والقصص المليء بالإثارة والتشويق، حيث تعيش الأحداث وترافق الأبطال في رحلات لا تُنسى.";
 
   // العناوين
   static const String titleAddStory = 'إضافة قصة جديدة';
@@ -44,6 +51,10 @@ class AppStrings {
   static const String msgInvalidEmailFormat = 'يرجى إدخال بريد إلكتروني صحيح';
   static const String msgPasswordTooShort = 'كلمة المرور يجب أن تكون 6 أحرف أو أكثر';
   static const String msgEnterName = 'يرجى إدخال الاسم';
+  static const String toastLoginSuccess = "تم تسجيل الدخول بنجاح";
+  static const String toastRegistrationSuccess = "تم إنشاء الحساب بنجاح";
+  static const String toastLogoutSuccess = "تم تسجيل الخروج بنجاح";
+  static const String toastErrorOccurred = "حدث خطأ ما، يرجى المحاولة لاحقًا";
 
   // أخطاء في الفورم
   static const String errEnterTitle = 'من فضلك أدخل اسم القصة';
@@ -75,9 +86,6 @@ class AppStrings {
   static const String toastEmptyPassword = 'الرجاء إدخال كلمة المرور';
   static const String toastEmptyConfirmPassword = 'الرجاء تأكيد كلمة المرور';
   static const String toastPasswordMismatch = 'كلمة المرور وتأكيدها غير متطابقين';
-  static const String toastRegistrationSuccess = 'تم تسجيل الحساب بنجاح';
-  static const String toastLoginSuccess = 'تم تسجيل الدخول بنجاح';
-  static const String toastErrorOccurred = 'حدث خطأ أثناء العملية';
   static const String toastAddAtLeastOneImage = 'من فضلك أضف صورة واحدة على الأقل';
   static const String toastStoryAddedSuccess = 'تم إضافة القصة بنجاح';
   static const String toastProfileUpdatedSuccess = 'تم تحديث الملف الشخصي بنجاح';
